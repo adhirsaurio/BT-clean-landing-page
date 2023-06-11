@@ -1,31 +1,24 @@
 ![Bootstrap v5](https://img.shields.io/badge/Bootstrap-V5-blue)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-ff69b4)
-
-# Clean-landing-page
-Bootstrap 5 clean landing page for practice or start a new project with bootstrap 5 and css.
-With dark and light theme.
+![Php](https://img.shields.io/badge/PHP-8-red)
+![Ajax](https://img.shields.io/badge/JQuey-Ajax-yellowgreen)
+# Form registration adding image to profile
+Form registration adding image to profile, after submiting the form, a default image with the initial letter of your user name is created, so you can upload your favorite image later.
 
 ## Custom CSS
 <p>It has a <i>custom.css</i> file where you can add custom css to your project.</p>
 <p>We added some custom css.</p>
 <p>Flexbox theme.</p>
-<p>Animate.css.</p>
 <p>It has some CSS effects to add to your DIVs, images, text, etc.</p>
 
 ## Vanilla JS
 <p>It has a <i>script.js</i> file where you can add custom JS to your project.</p>
-<p>We added some vanilla js.</p>
-
-## Animate CSS library
-<p>We included animate.css for some animations on the template</p>
-<p>If you want to dig in deeper on animate.css, here is the <a href="https://animate.style/"><b>Official Documentation</b></a></p>
-<h1>Very important! Infinite animations should be avoided.<h1>
+<p>Ajax request are handled in that script.</p>
 
 ## Libraries included
-* Bootstrap v5.2.3
+* Bootstrap v5.3
 * Bootstrap icons
-* Masonry.js
-* Animate.css
+* JQuery
 
 ## Contributing
 
@@ -40,5 +33,3 @@ With dark and light theme.
 
 ## Maintenance
 ![Maintenance](https://img.shields.io/badge/Maintenance-Yes-brightgreen)
-## Licence
-Code released under [the MIT license](https://github.com/bulmatemplates/bulma-templates/blob/master/LICENSE).

@@ -8,14 +8,14 @@
     <meta name="author" content="https://github.com/adhirsaurio" />
     <meta name="description" content="Form registration adding image to profile" />
     <!-- Favicon -->
-    <link href="assets/img/cafe.png" type="image/x-icon" rel="icon"/>
+    <link href="../assets/img/cafe.png" type="image/x-icon" rel="icon"/>
     <!-- Bootstrap v5.3-->
-    <link href="assets/css/bootstrap5.3.css" rel="stylesheet"/>
-    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap5.3.css" rel="stylesheet"/>
+    <link href="../assets/css/bootstrap-icons.css" rel="stylesheet">
     <!-- Your custom css -->
-    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link href="../assets/css/custom.css" rel="stylesheet" />
     <!-- Bootstrap v5.3 core JS-->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 </head>
@@ -26,7 +26,7 @@
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
       <div class="container">
           <a class="navbar-brand animate__animated animate__fadeInLeft" href="https://github.com/adhirsaurio/Form-registration-adding-image-to-profile">
-              <img src="assets/img/cafe.png" alt="Logo img" width="40" height="40" class="d-inline-block align-text-top">
+              <img src="../assets/img/cafe.png" alt="Logo img" width="40" height="40" class="d-inline-block align-text-top">
               Form registration adding image to profile
           </a>
       </div>
@@ -37,30 +37,8 @@
 
   <!-- Registration form -->
   <section class="container marketing m-5 pb-5 mb-3 mx-auto text-center">
-    <div class="position-absolute top-50 start-50 translate-middle col-4">
-      <h3 class="mb-5">Form registration</h3>
-      <form class="form-control bg-dark" method="POST" id="registerForm" enctype="multipart/form-data">
-        <div class="row">
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="userName" name="userName" placeholder="NoobMaster5000EX">
-              <label for="floatingInput">User name</label>
-            </div>
-            <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
-              <label for="floatingInput">Email address</label>
-            </div>
-        </div>
-        <div class="row mb-3">
-            <div class="form-floating">
-              <input type="password" class="form-control" id="entryPass" name="entryPass" placeholder="Password">
-              <label for="floatingPassword">Password</label>
-            </div>
-        </div>
-        <div class="d-grid gap-2 col-10 mx-auto mb-3">
-          <input type="hidden" id="action" name="action" value="formRegistration">
-          <input type="submit" name="buttonAction" id="buttonAction" class="btn btn-primary" value="Sign up" /> 
-        </div>
-      </form>
+    <div class="row">
+        <div class="position-absolute top-50 start-50 translate-middle col-lg-12" id="result"></div>
     </div>
   </section>
     
@@ -76,6 +54,6 @@
   </footer>
 
   <!-- YOUR CUSTOM SCRIPTS -->
-  <script src="assets/js/scripts.js"></script>
+  <script src="../assets/js/scripts.js"></script>
 </body>
 </html>
